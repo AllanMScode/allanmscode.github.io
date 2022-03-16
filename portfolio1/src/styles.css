@@ -79,6 +79,11 @@ background-color: white;
     width: 31px;
     padding: 0;
 }
+    
+.hamburger.focused {
+    color: black;
+    background-color: white;
+    }    
 
 .button {
     border: 0;
