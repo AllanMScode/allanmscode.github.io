@@ -3,6 +3,9 @@ const navList = document.getElementById('nav-list')
 
 function toggleButton() {
     navList.classList.toggle('show')
+    
+    
+    hamburgerBtn.classList.toggle('focused')
 }
 
 hamburgerBtn.addEventListener('click', toggleButton)
