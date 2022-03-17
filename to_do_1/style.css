@@ -26,14 +26,14 @@ h1 {
 }
 
 .container {
-    width: 360px;
+    width: 300px;
     background-color: salmon;
     border: 5px solid black;
     border-radius: 5px;
 }
 
 #inputField {
-    width: 300px;
+    width: 240px;
     height: 46px;
     border: 1px solid black;
     outline: none;
@@ -50,7 +50,7 @@ h1 {
     border: 1px solid black;
     vertical-align: middle;
     font-size: 15px;
-    background-color: rgb(252, 64, 44);
+    background-color: darkorange;
     border-radius: 5px;
 }
 
@@ -67,6 +67,8 @@ h1 {
     background-color: rgb(252, 178, 178);
     /* border: .1px solid black; */
     /* padding: 5px; */
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .info {
