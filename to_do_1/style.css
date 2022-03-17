@@ -1,0 +1,91 @@
+body {
+    width: 50%;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 233, 231);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bigBox {
+    background-color: rgb(255, 218, 214);;
+    width: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+h1 {
+    /* background-color: brown; */
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+h6 {
+    margin-top: 0px;
+}
+
+.container {
+    width: 360px;
+    background-color: salmon;
+    border: 5px solid black;
+    border-radius: 5px;
+}
+
+#inputField {
+    width: 300px;
+    height: 46px;
+    border: 1px solid black;
+    outline: none;
+    font-size: 25px;
+    vertical-align: middle;
+    /* background-color: grey; */
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#addToDo {
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    vertical-align: middle;
+    font-size: 15px;
+    background-color: rgb(252, 64, 44);
+    border-radius: 5px;
+}
+
+.to-dos {
+    margin-top: 25px;
+    /* background-color: blue; */
+}
+
+.paragraph-styling {
+    margin: 0;
+    cursor: pointer;
+    font-size: 20px;
+    /* background-color: yellow; */
+    background-color: rgb(252, 178, 178);
+    /* border: .1px solid black; */
+    /* padding: 5px; */
+}
+
+.info {
+    /* background-color: green; */
+    width: 280px;
+    padding: 5px;
+    /* height: 50px; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    /* background-color: red; */
+    text-align: center;
+    /* margin: 5px; */
+}
